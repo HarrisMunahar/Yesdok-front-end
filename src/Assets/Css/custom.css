@@ -1,0 +1,170 @@
+body {
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 14px;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  line-height: 1 !important;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #009cd7;
+}
+
+p {
+  margin: 15px 0px!important;
+}
+
+.text-category:hover {
+  color: white;
+}
+
+.bg-navi {
+  background-color: #024668;
+}
+
+.color-title {
+  color: #024668;
+}
+
+.bg-category {
+  background-color: #c49f47;
+}
+
+.border-color {
+  border-color: #024668;
+}
+
+.info {
+  background-color: #60b9bd;
+}
+
+.pulsatingDot {
+  animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+  background-color: var(--pulsating-dot, #f7921e);
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  z-index: 0;
+}
+
+.pulsatingDot:before {
+  animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  background-color: var(--pulsating-dot, #f7921e);
+  border-radius: 45px;
+  content: "";
+  display: block;
+  height: 300%;
+  left: -100%;
+  position: relative;
+  top: -100%;
+  width: 300%;
+  z-index: 0;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 30px !important;
+  width: 30px !important;
+  right: 15px !important;
+  top: 15px !important;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  width: 350px !important;
+  top: 0;
+  left: 0;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #024668;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+}
+
+.sticky-inner-wrapper {
+  transform: none !important;
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(0.5);
+  }
+  80%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulseDot {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
