@@ -5,7 +5,20 @@ Front-end Developer Clone Web https://www.yesdok.com in React JS
 
 Aplikasi ini di buat dengan bahasa pemrograman Javascript, dan di buat dalam waktu 24jam. 
 
-Saya membuat aplikasi ini dengan 
+Module yang saya gunakan dalam membuat aplikasi ini adalah :
+1. Tailiwnd CSS (https://tailwindcss.com/docs)
+2. Styled (https://styled-components.com/)
+3. Hook React (https://reactjs.org/docs/hooks-intro.html)
+4. Styled Media Query (https://www.npmjs.com/package/styled-media-query)
+5. React Route (https://reactrouter.com/web)
+
+Metode yang saya gunakan untuk membuat aplikasi ini adalah :
+1. Memakai sedikit css file 
+2. Mengoptimalkan penggunaan module Tailwind Css
+3. Menggunakan React Route Sebagai Navigasi Page 
+4. Memisahkan setiap component sesuai kebutuhan
+5. Responsive Mobile menggunakan Styled Media Query, bukan CSS file / Inline Css
+
 
 
 ## Getting Started
