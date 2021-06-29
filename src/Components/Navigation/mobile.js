@@ -4,6 +4,8 @@ import Logo from '../../Assets/Image/headeryesdok.png'
 import IconIndonesia from '../../Assets/Image/indonesia.png'
 import IconEnglish from '../../Assets/Image/english.png'
 import { DataNaviBottom, DataNaviTop, Point } from '../../Data/jsonNavi'
+
+
 const MenuContainer = () => {
     return (
         <Menu pageWrapId={ "page-wrap" } customBurgerIcon={ <img alt="img" src={MenuIcon} /> }  >
@@ -20,7 +22,7 @@ const MenuContainer = () => {
                                     <img alt="indonesia" src={IconIndonesia} width="25"></img>
                                 </a>
                                 <a href="https://www.yesdok.com/en/company/" className="px-3 py-2 flex items-center bg-navi rounded-r-3xl hover:text-white">
-                                    <img alt="indonesia" src={IconEnglish} width="25"></img>
+                                    <img alt="english" src={IconEnglish} width="25"></img>
                                     <div className="pl-2">EN</div>
                                 </a>
                             </div>
@@ -51,7 +53,7 @@ const MenuContainer = () => {
                                 <a href={v.url}> {v.name} </a>
                             </li>
                         })}
-                       
+                    
                     </ul>
                 </div>
             </div>
