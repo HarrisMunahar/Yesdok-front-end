@@ -85,7 +85,7 @@ const FooterContainer = () => {
                            <a href="help@yesdok.com">help@yesdok.com</a>
                            </span>
                        </div>
-                       <div className="text-3xl font-bold mb-4 mt-5">SINGAPORE</div>
+                       <div className="text-3xl font-bold mb-4 mt-5">FOLLOW US</div>
                        <div>
                            <div className="flex">
                                 <div className="pr-4">
