@@ -18,6 +18,7 @@ Metode yang saya gunakan untuk membuat aplikasi ini adalah :
 3. Menggunakan React Route Sebagai Navigasi Page 
 4. Memisahkan setiap component sesuai kebutuhan
 5. Responsive Mobile menggunakan Styled Media Query, bukan CSS file / Inline Css
+6. Menggunakan UseState untuk menyimpen data sementara, dan UseEffect untuk meload data hanya 1x saat page di load
 
 
 
