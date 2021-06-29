@@ -13,9 +13,6 @@ const RouteIndex = () => {
         <Router>
           <MainNavigation></MainNavigation>
           <Switch>
-            <Route path="/Hom">
-                Test
-            </Route>
             <Route path="/article/:id">
               <ArticleContainer></ArticleContainer>
             </Route>
