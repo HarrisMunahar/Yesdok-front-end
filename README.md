@@ -13,15 +13,15 @@ Jika saya diberikan waktu yang lebih banyak ini yang akan saya lakukan
 * Mengembangkan hasil web yang saya clone
 * Mengoptimasikan SEO
 
- |- Seperti membuat artikel web yang muncul di pencarian google dengan cepat.
+    |- Seperti membuat artikel web yang muncul di pencarian google dengan cepat.
 * Mengoptimasikan Kecepatan Tampilan Web & Mobile
 
- |- Mengkompres Gambar dengan size renda tapi resolusi tidak pecah, dan mengoptimalkan script supaya size nya tidak terlalu besar.
+     |- Mengkompres Gambar dengan size renda tapi resolusi tidak pecah, dan mengoptimalkan script supaya size nya tidak terlalu besar.
 
 * Mengoptimasikan Tampilan Mobile
 
- |- Memperbaiki tampilan dari setiap media Mobile/Table 
- 
+    |- Memperbaiki tampilan dari setiap media Mobile/Table 
+
 * Menganalisa & Mencari Bug dari front-end yang saya buat
 
 
